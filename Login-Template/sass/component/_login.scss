@@ -1,0 +1,147 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 87.5vh;
+
+    &__pattern {
+        display: grid;
+        grid-template-columns: repeat(7, 12.5vh);
+        grid-template-rows: repeat(8, 12.5vh);
+    }
+
+    &__form {
+        padding: 5rem 15rem 0 15rem;
+    }
+}
+
+.info {
+    &__heading {
+        color: $color-primary;
+        font-weight: 500;
+    }
+    &__text {
+        font-size: 1.4rem;
+        color: $color-grey;
+    }
+}
+
+.form {
+    color: $color-grey;
+    font-size: 1rem;
+    &__content {
+        text-align: right;
+        margin-top: -1rem;
+    }
+
+    &__text {
+        color: $color-grey;
+        display: inline-block;
+        text-transform: capitalize;
+    }
+
+    &__svg {
+        height: 1rem;
+        width: 1rem;
+        fill: $color-grey;
+    }
+
+    &__label {
+     display: block;
+     margin-left: 2rem;
+    }
+    &__input {
+        font-size: 1.2rem;
+        margin: 1rem 0 2rem 0;
+        font-family: inherit;
+        color: inherit;
+        padding: 1.5rem 2rem;
+        background-color: transparent;
+        border: none;
+        border: 2px solid $color-grey;
+        display: block;
+        transition: all 0.3s;
+        width: 100%;
+        &::-webkit-input-placeholder {
+            color: $color-primary;
+        }
+
+        &:not(:placeholder-shown) {
+            background-color: rgb(232, 240, 254) !important;
+            background-image: linear-gradient(to right, transparent, transparent);
+            border:transparent;
+
+        }
+       
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            
+            &:valid {
+                border-bottom: 3px solid $color-teritiary;
+                outline: none;
+                background-color: transparent;
+            }
+    
+            &:invalid {
+                border-bottom: 3px solid $color-secondary;
+            }
+        }
+    }
+    
+}
+
+.button {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: $color-primary;
+    outline: none;
+    border: none;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 6rem;
+    &__text {
+        display: inline-block;
+        padding-left: 2rem;
+        justify-self: left;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+        color: $color-blue-dark;
+
+    }
+    &__svg {
+        width: 2rem;
+        height: 2rem;
+        fill: $color-blue-dark;
+        background-color: rgba($color-black, 0.15);
+        border-radius: 50%;
+
+        justify-self: center;
+    }
+}
+
+.social {
+
+    &__text {
+        font-size: 1rem;
+        text-align: center;
+        color: $color-primary;
+        text-transform: capitalize;
+        letter-spacing: 0.4rem;
+        font-weight: 300;
+    }
+    &__icons {
+       text-align: center;
+    }
+
+    &__svg {
+        box-sizing: content-box;
+        height: 2rem;
+        width: 2rem;
+        background-color: transparent;
+        fill: $color-primary;
+        margin: 0 1.5rem;
+        padding: 1rem;
+        border-radius: 50%;
+        border: 2px solid $color-primary;
+    }
+}

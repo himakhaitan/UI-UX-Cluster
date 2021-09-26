@@ -1,0 +1,484 @@
+.pattern {
+  &__element {
+    width: 12.5vh;
+    height: 12.5vh;
+  }
+}
+
+.one {
+  &__1 {
+    background-image: linear-gradient(
+      135deg,
+      $color-blue-light 0%,
+      $color-blue-light 50%,
+      transparent 50%,
+      transparent 100%
+    );
+  }
+
+  &__2 {
+    background-image: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 50%,
+      $color-primary 50%,
+      $color-primary 100%
+    );
+  }
+
+  &__4 {
+    background-image: linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 50%,
+      $color-primary 50%,
+      $color-primary 100%
+    );
+  }
+  &__5 {
+    background-image: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 50%,
+      $color-primary 50%,
+      $color-primary 100%
+    );
+  }
+  &__6 {
+    background-image: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 50%,
+      $color-blue-light-one 50%,
+      $color-blue-light-one 100%
+    );
+  }
+  &__7 {
+    background-image: linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 50%,
+      $color-primary 50%,
+      $color-primary 100%
+    );
+  }
+}
+
+.two {
+  &__1 {
+    background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 50%,
+        $color-primary 50%,
+        $color-primary 100%
+      );
+  }
+
+  &__2 {
+      background-color: $color-blue-light-one;
+  }
+
+  &__3 {
+   
+        background-image: linear-gradient(
+          135deg,
+          $color-blue-light 0%,
+          $color-blue-light 50%,
+          transparent 50%,
+          transparent 100%
+        );
+  }
+
+  &__4 {
+    background-image: linear-gradient(
+        135deg,
+        $color-blue-light-one 0%,
+        $color-blue-light-one 50%,
+        transparent 50%,
+        transparent 100%
+      );
+  }
+  &__5 {
+    background-image: linear-gradient(
+        135deg,
+        transparent 0%,
+        transparent 50%,
+        $color-primary 50%,
+        $color-primary 100%
+      );
+  }
+  &__6 {
+    background-color: $color-blue-light-one;
+  }
+  &__7 {
+    background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 50%,
+        $color-primary 50%,
+        $color-primary 100%
+      );
+  }
+}
+
+.three {
+  &__1 {
+    background-image: linear-gradient(
+        135deg,
+        transparent 0%,
+        transparent 50%,
+        $color-blue-light-one 50%,
+        $color-blue-light-one 100%
+      );
+  }
+
+  &__2 {
+    background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 50%,
+        $color-blue-light-one 50%,
+        $color-blue-light-one 100%
+      );
+  }
+
+  &__3 {
+    background-image: linear-gradient(
+        135deg,
+        $color-primary 0%,
+        $color-primary 50%,
+        transparent 50%,
+        transparent 100%
+      );
+  }
+
+  &__4 {
+    background-image: linear-gradient(
+        135deg,
+        transparent 0%,
+        transparent 50%,
+        $color-blue-light-one 50%,
+        $color-blue-light-one 100%
+      );
+  }
+  &__5 {
+    background-image: linear-gradient(
+        135deg,
+        transparent 0%,
+        transparent 50%,
+        $color-primary 50%,
+        $color-primary 100%
+      );
+  }
+  &__6{
+    background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 50%,
+        $color-blue-light-one 50%,
+        $color-blue-light-one 100%
+      );
+  }
+  &__7 {
+    background-image: linear-gradient(
+        45deg,
+        $color-primary 0%,
+        $color-primary 50%,
+        transparent 50%,
+        transparent 100%    
+      );
+  }
+}
+
+.four {
+    &__1 {
+        background-color: $color-primary;
+    }
+  
+    &__2 {
+        background-image: linear-gradient(
+        45deg,
+        $color-primary 0%,
+        $color-primary 50%,
+        transparent 50%,
+        transparent 100%    
+      );    
+    }
+  
+    &__3 {
+        
+        background-image: linear-gradient(
+          135deg,
+          $color-blue-light 0%,
+          $color-blue-light 50%,
+          transparent 50%,
+          transparent 100%
+        );
+    }
+  
+    &__4 {
+        background-image: linear-gradient(
+            135deg,
+            transparent 0%,
+            transparent 50%,
+            $color-primary 50%,
+            $color-primary 100%
+          );
+    }
+    &__5 {
+        background-color: $color-blue-light;
+    }
+    &__6{
+        background-image: linear-gradient(
+            135deg,
+            transparent 0%,
+            transparent 50%,
+            $color-primary 50%,
+            $color-primary 100%
+          );
+    }
+    &__7 {
+        background-image: linear-gradient(
+            135deg,
+            transparent 0%,
+            transparent 50%,
+            $color-primary 50%,
+            $color-primary 100%
+          );
+    }
+}
+
+.five {
+    &__1 {
+        background-image: linear-gradient(
+            135deg,
+            transparent 0%,
+            transparent 50%,
+            $color-blue-light 50%,
+            $color-blue-light 100%
+          );
+    }
+  
+    &__2 {
+        background-image: linear-gradient(
+      135deg,
+      $color-blue-light 0%,
+      $color-blue-light 50%,
+      transparent 50%,
+      transparent 100%
+    );
+    }
+  
+    &__3 {
+        background-color: $color-blue-light;
+    }
+  
+    &__4 {
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light-one 0%,
+            $color-blue-light-one 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+    &__5 {
+        background-image: linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 50%,
+            $color-blue-light 50%,
+            $color-blue-light 100%
+          );
+    }
+    &__6{
+        background-color: $color-blue-light-one;
+    }
+    &__7 {
+        background-image: linear-gradient(
+            45deg,
+            $color-primary 0%,
+            $color-primary 50%,
+            transparent 50%,
+            transparent 100%    
+          );
+    }
+}
+
+.six {
+    &__1 {
+        background-image: linear-gradient(
+            45deg,
+            $color-primary 0%,
+            $color-primary 50%,
+            transparent 50%,
+            transparent 100%    
+          );
+    }
+  
+    &__2 {
+        background-image: linear-gradient(
+            135deg,
+            $color-blue-light-one 0%,
+            $color-blue-light-one 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+  
+    &__3 {
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light-one 0%,
+            $color-blue-light-one 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+  
+    &__4 {
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light-one 0%,
+            $color-blue-light-one 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+    &__5 {
+        background-image: linear-gradient(
+        135deg,
+        $color-primary 0%,
+        $color-primary 50%,
+        transparent 50%,
+        transparent 100%
+      );
+    }
+    &__6{
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light 0%,
+            $color-blue-light 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+    &__7 {
+        background-color: $color-primary;
+    }
+}
+
+.seven {
+    &__1 {
+        background-color: $color-blue-light;
+    }
+  
+    &__2 {
+        background-image: linear-gradient(
+            135deg,
+            transparent 0%,
+            transparent 50%,
+            $color-blue-light 50%,
+            $color-blue-light 100%
+          );
+    }
+  
+    &__3 {
+        background-image: linear-gradient(
+            45deg,
+            $color-primary 0%,
+            $color-primary 50%,
+            transparent 50%,
+            transparent 100%    
+          );
+    }
+  
+    &__4 {
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light 0%,
+            $color-blue-light 50%,
+            transparent 50%,
+            transparent 100%    
+          );
+    }
+    &__5 {
+        background-color: $color-blue-light;
+    }
+    &__6{
+        background-image: linear-gradient(
+            45deg,
+            $color-primary 0%,
+            $color-primary 50%,
+            transparent 50%,
+            transparent 100%    
+          );
+    }
+    &__7 {
+        background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 50%,
+        $color-blue-light 50%,
+        $color-blue-light 100%
+      );
+    }
+}
+
+.eight {
+    &__1 {
+        background-image: linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 50%,
+            $color-blue-light 50%,
+            $color-blue-light 100%
+          );
+    }
+  
+    &__2 {
+        background-color: $color-blue-light-one;
+    }
+  
+    &__3 {
+        background-image: linear-gradient(
+            45deg,
+            $color-blue-light-one 0%,
+            $color-blue-light-one 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+  
+    &__4 {
+        background-image: linear-gradient(
+            135deg,
+            $color-blue-light 0%,
+            $color-blue-light 50%,
+            transparent 50%,
+            transparent 100%
+          );
+    }
+    &__5 {
+        background-image: linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 50%,
+            $color-primary 50%,
+            $color-primary 100%
+          );
+    }
+    &__6{
+        background-image: linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 50%,
+            $color-blue-light 50%,
+            $color-blue-light 100%
+          );
+    }
+    &__7 {
+        background-color: $color-blue-light-one;
+    }
+}

@@ -17,5 +17,6 @@ UI-UX Cluster contains all the small projects and UI I have made during any cour
 - [x] Nextors
 - [x] Bubble
 - [x] Trillo
+- [x] Login Template
 
 > Happily Turning Coffee into Code 🌱
