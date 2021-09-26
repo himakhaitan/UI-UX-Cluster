@@ -1,0 +1,19 @@
+#clients {
+    display: grid;
+    margin: 10rem 3rem 17rem;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 56.25em) {
+    #clients {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 5rem;
+    }
+    .clients--image {
+        width: 70%;
+    }
+}

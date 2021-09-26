@@ -1,0 +1,21 @@
+.btn--primary {
+  background-color: var(--color-primary);
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-white);
+  transition: all 0.5s ease-in;
+}
+.btn--black {
+  background-color: var(--color-black-light);
+}
+.btn--primary:hover {
+  background-color: var(--color-black-light);
+}
+.btn--black:hover {
+  background-color: var(--color-primary);
+}

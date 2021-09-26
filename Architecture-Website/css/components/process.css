@@ -1,0 +1,124 @@
+#process {
+  display: grid;
+  grid-template-columns: 38% 1fr;
+  margin: 21rem 0 16rem 0;
+  position: relative;
+
+}
+
+.process__image {
+  width: 100%;
+  z-index: 2;
+  height: 92%;
+}
+
+
+.process__content {
+  margin-left: 10rem;
+  margin-right: 2rem;
+}
+
+.process__cards {
+  display: grid;
+  margin-left: -28%;
+  width: 120%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.process__card {
+  padding: 2rem;
+  margin: 0 2rem;
+  background-color: var(--color-white);
+  text-align: center;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.process__card p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.card__num {
+  -webkit-text-stroke: 2px #4B4B4B;
+  font-size: 7rem;
+  margin-top: 0.8rem;
+  font-family: sans-serif;
+  margin-bottom: 3rem;
+  color: transparent;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+
+.card__num::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  bottom: -10%;
+  right: -15%;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.card__head {
+  text-transform: capitalize;
+  font-size: 2.1rem;
+  letter-spacing: 1.3px;
+  margin-bottom: 2rem;
+}
+
+.process__watermark {
+  font-size: 16rem;
+  color: transparent;
+  position: absolute;
+  opacity: 0.2;
+  top: -18%;
+  letter-spacing: 1.5px;
+  right: 0;
+  z-index: -1;
+  -webkit-text-stroke: 2px var(--color-primary);
+}
+
+@media only screen and (max-width: 56.25em) {
+  #process {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .process__img {
+    text-align: center;
+  }
+  .process__image {
+    width: 75%;
+  }
+  .process__watermark {
+    font-size: 15rem;
+    top: -5%;
+    left: 5%;
+    line-height: 0.6;
+  }
+  .process__content > p {
+    font-size: 2rem;
+  }
+  .process__cards {
+    margin-left: 0;
+    width: 100%;
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .process__card {
+    padding: 4rem;
+    margin: 0;
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+  .process__card > p {
+    font-size: 2rem;
+    
+  }
+  .process__content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}

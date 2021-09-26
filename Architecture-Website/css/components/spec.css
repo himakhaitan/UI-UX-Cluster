@@ -1,0 +1,118 @@
+#spec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    margin-bottom: 17rem;
+}
+
+.main__img {
+    width: 100%;
+    
+}
+.spec__main {
+    position: relative;
+}
+
+.spec__secondary {
+    margin-left: 12rem;
+    align-self: center;
+    margin-right: 3rem;
+}
+
+.secondary__content {
+    margin-left: 8rem;
+}
+
+.helper__text {
+    position: absolute;
+    top: 6%;
+    z-index: -1;
+    transform: translateY(-50%);
+    right: 1rem;
+    opacity: 0.6;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-primary);
+    font-size: 12rem;
+    font-weight: bold;
+}
+
+.main__content {
+    background-color: var(--color-primary);
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    right: -15%;
+    padding: 4rem 8rem;
+}
+.main__content::after {
+    content: "";
+    position: absolute;
+    top: -3%;
+    z-index: -1;
+    left: -5%;
+    background-color: var(--color-grey);
+    width: 100%;
+    height: 100%;
+}
+
+.thumb {
+    fill: var(--color-white);
+    width: 7rem;
+    height: 7rem;
+}
+.star__svg {
+    fill: var(--color-white);
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
+.content__perc {
+    margin-top: 2rem;
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.cont__text {
+    color: var(--color-white);
+    font-size: 2rem;
+    width: min-content;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+@media only screen  and (max-width: 56.25em){
+    #spec {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 7rem;
+        margin-bottom: 5rem;
+    }
+    .main__content {
+        position: absolute;
+        bottom: 5%;
+        right: 0%;
+    }
+    .main__content::after {
+        content: "";
+        position: absolute;
+        top: -3%;
+        z-index: -1;
+        left: -5%;
+        background-color: var(--color-grey);
+        width: 100%;
+        height: 100%;
+    }
+    .main__img {
+        width: 80%; 
+    }
+    .spec__secondary {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .secondary__content {
+        margin-left: 1rem;
+    }
+    
+}

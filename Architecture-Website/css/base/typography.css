@@ -1,0 +1,49 @@
+
+p{
+  color: var(--color-grey-dark);
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+
+.text--orange {
+  color: var(--color-primary);
+}
+
+.text {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+}
+
+.text--grey {
+  color: var(--color-grey);
+}
+
+.text--white {
+  color: var(--color-white);
+}
+
+
+
+/* ******************************************************************* */
+
+.text__small {
+position: relative;
+font-size: 1.5rem;
+text-transform: capitalize;
+letter-spacing: 1.4px;
+font-weight: 400;
+}
+.text__small--white {
+  color: var(--color-white);
+  }
+.text__small--grey {
+  color: var(--color-grey);
+}
+.text__box {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+

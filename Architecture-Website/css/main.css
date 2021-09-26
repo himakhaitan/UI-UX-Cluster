@@ -1,0 +1,21 @@
+/* Importing Different CSS files */
+
+@import "./abstracts/variables.css";
+@import "./abstracts//annimations.css";
+@import "./abstracts/utils.css";
+
+@import "./base/base.css";
+@import "./base/line.css";
+@import "./base/typography.css";
+@import "./base//button.css";
+
+@import "./components/hero.css";
+@import "./components/about.css";
+@import "./components/testimonial.css";
+@import "./components/process.css";
+@import "./components/project.css";
+@import "./components/spec.css";
+@import "./components/service.css";
+@import "./components/clients.css";
+@import "./components/footer.css";
+@import "./components/disclaimer.css";

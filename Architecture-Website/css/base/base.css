@@ -1,0 +1,32 @@
+/* Browser Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+}
+
+/* 1 rem = 10px */
+/*  fonts
+ font-family: 'Heebo', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+html {
+    font-size: 62.5%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+/*  fonts
+ font-family: 'Heebo', sans-serif;
+font-family: 'Raleway', sans-serif;*/

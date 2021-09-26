@@ -1,0 +1,169 @@
+#project {
+  padding: 12rem 3rem 9rem;
+  background-color: var(--color-grey);
+}
+
+.controller {
+  display: grid;
+  margin-top: -7rem;
+  grid-template-columns: 1fr repeat(2, min-content);
+  grid-gap: 1rem;
+}
+
+.cont {
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+
+  height: 6rem;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.slider {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3.5rem;
+}
+
+.slider__img {
+  width: 100%;
+  
+}
+.slider__elem {
+  position: relative;
+}
+.slider__info {
+  background-color: var(--color-white);
+  padding: 3rem 5rem 5rem 6rem;
+  width: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.slider__info--even {
+  top: -10%;
+}
+
+.slider__info--odd {
+  bottom: -10%;
+}
+
+.slider__e {
+  font-weight: 400;
+  letter-spacing: 1.7px;
+}
+.slider__text {
+  position: relative;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.slider__text::before {
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  top: 50%;
+  left: -13%;
+  transform: translateY(-50%);
+  background-color: var(--color-primary);
+  position: absolute;
+}
+
+.plus {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  padding: 0.7rem;
+  height: 4rem;
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  color: var(--color-white);
+  width: 4rem;
+  background-color: var(--color-primary);
+  justify-content: center;
+}
+
+.slider__img:hover ~ .slider__info {
+  background-color: var(--color-primary);
+}
+
+.slider__img:hover ~ .slider__info > .plus {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.slider__img:hover ~ .slider__info > .slider__e {
+    color: var(--color-black);
+}
+
+.slider__img:hover ~ .slider__info > .slider__text {
+    color: var(--color-white);
+}
+.slider__img:hover ~ .slider__info > .slider__text::before {
+    background-color: var(--color-white);
+}
+
+.slider__info:hover {
+    background-color: var(--color-primary);
+}
+
+.slider__info:hover > .plus {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+.slider__info:hover > .slider__e{
+    color: var(--color-black);
+}
+.slider__info:hover > .slider__text {
+    color: var(--color-white);
+}
+
+.slider__info:hover > .slider__text::before {
+    background-color: var(--color-white);
+}
+
+.slider__btn {
+text-align: center;
+margin-top: 14rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .controller {
+    display: grid;
+    grid-template-columns:  repeat(2, min-content) 1fr;
+    grid-gap: 1rem;
+    margin-top: 5rem;
+  }
+  .slider {
+    padding: 0 10rem;
+    margin-top: 10rem;
+    display: grid;  
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .slider__info--even {
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .slider__info--odd {
+    bottom: auto;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .slider__elem {
+    height: 50%;
+  }
+  .slider__btn {
+    text-align: center;
+    }
+}

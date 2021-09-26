@@ -1,0 +1,132 @@
+#service {
+  padding: 10rem 5rem;
+  background-color: var(--color-grey);
+}
+
+.service__label {
+  text-align: center;
+}
+
+.service__content {
+  display: grid;
+  grid-column-gap: 3rem;
+  grid-template-columns: 1fr 30%;
+}
+
+
+
+.service__img {
+  width: 100%;
+}
+.service__main {
+  display: grid;
+  margin-right: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 7.5rem;
+  grid-column-gap: 7.5rem;
+}
+.service__secondary {
+  align-self: center;
+}
+
+.service__main--ele {
+  background-color: var(--color-white);
+  padding: 4.3rem 3.2rem;
+  position: relative;
+}
+
+.service__main--ele:hover {
+    background-color: var(--color-primary);
+}
+
+.service__main--ele:hover > div >p {
+    color: var(--color-white);
+}
+
+.service__main--ele:hover > .service__main--one > .service__svg {
+    fill: var(--color-white);
+}
+.service__main--ele:hover > .service__main--cta > svg{
+    fill: var(--color-black);
+    background-color: var(--color-white);
+    
+}
+.service__main--ele:hover > .service__main--one > .circle{
+background-color: var(--color-white);
+opacity: 0.4;
+}
+
+.service__svg {
+  height: 5.5rem;
+  z-index: 2;
+  width: 5.5rem;
+  position: relative;
+  fill: var(--color-black);
+}
+
+.service__header {
+  text-align: left;
+  font-size: 3rem;
+  letter-spacing: 0.23rem;
+}
+
+.circle {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 0;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.service__text {
+  line-height: 2;
+}
+
+.service__svg--sec {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--color-primary);
+    padding: 1.4rem;
+    fill: var(--color-white);
+    position: absolute;
+    bottom: -5%;
+}
+
+.service--btn {
+    text-align: center;
+    margin-top: -2rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .service__content {
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+  .service__main {
+    margin-right: 0rem;
+    grid-row-gap: 5.2rem;
+  grid-column-gap: 5.2rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  }
+  .service__img {
+    display: none;
+  }
+  .service--btn {
+    margin-top: 6rem;
+}
+.service__main--ele {
+  width: 70%;
+}
+.circle {
+  top: 15%;
+  left: 10%;
+}
+}
