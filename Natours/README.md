@@ -10,9 +10,9 @@
 Natours contains intermediate CSS concepts using SCSS. This UI was designed under the Jonas Schmedtmann during his course on Udemy.
 </p>
 <p align="center">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Natours/resource/html5.png" height="40">&nbsp; &nbsp;
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Natours/resource/css.png" height="40">&nbsp; &nbsp;
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Natours/resource/sass.png" height="40">&nbsp; &nbsp;
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/resources/html5.png" height="40">&nbsp; &nbsp;
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/resources/css.png" height="40">&nbsp; &nbsp;
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/resources/sass.png" height="40">&nbsp; &nbsp;
 </p>
 
 <h3 align="center">

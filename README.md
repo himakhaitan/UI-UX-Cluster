@@ -7,13 +7,11 @@
 UI-UX Cluster contains all the small projects and UI I have made during any course or for educational purposes.
 </p>
 
-<img src="center">
 <img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/resources/header.png">
 
 ### Projects
 
 - [x] Natours
 - [x] Architecture Website
-- [x]
 
-> > Happily Turning Coffee into Code 🌱
+> Happily Turning Coffee into Code 🌱
