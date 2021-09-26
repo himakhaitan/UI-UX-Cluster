@@ -14,5 +14,6 @@ UI-UX Cluster contains all the small projects and UI I have made during any cour
 - [x] Natours
 - [x] Architecture Website
 - [x] Driftello
+- [x] Nextors
 
 > Happily Turning Coffee into Code 🌱

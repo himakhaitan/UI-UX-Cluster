@@ -2,7 +2,7 @@
   <br>
   <a><img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Driftello-Auto/img/favicon.png" width="200"></a>
   <br>  
- Driftello Auto - 
+ Driftello Auto 
   <br>
 </h1>
 
