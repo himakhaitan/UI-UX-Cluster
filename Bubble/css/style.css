@@ -1,0 +1,211 @@
+:root {
+  --color-primary: #00545d;
+  --color-secondary: #dbe2ef;
+  --color-white: #fbfcfd;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+}
+
+.logo {
+  color: var(--color-white);
+  letter-spacing: 1rem;
+  position: relative;
+  margin-left: 4.4rem;
+  cursor: pointer;
+}
+.logo::before {
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  left: -4.4rem;
+  top: -24%;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    45deg,
+    var(--color-primary) 0%,
+    var(--color-primary) 50%,
+    var(--color-white) 50%,
+    var(--color-white) 100%
+  );
+}
+
+.navbar {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+button {
+  color: var(--color-white);
+  padding: 1rem 2.5rem;
+  background: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+.content {
+  color: var(--color-white);
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+h1 {
+  font-size: 8rem;
+  margin: 1rem 0 3rem;
+  line-height: 8rem;
+}
+.side-bar {
+  width: 5rem;
+  height: 100vh;
+  background-image: linear-gradient(var(--color-primary), #000729);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.menu::after,
+.menu::before {
+  height: 2px;
+  background-color: var(--color-white);
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0%;
+  transition: all 0.2s;
+}
+.menu::after {
+  bottom: 1rem;
+  width: 3rem;
+}
+.menu::before {
+  top: 1rem;
+  width: 2.2rem;
+}
+.social-icons {
+  text-align: center;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.menu {
+  width: 3rem;
+  position: relative;
+  height: 2px;
+  margin: 5rem 1rem 0 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--color-white);
+  opacity: 0.8;
+}
+
+.social__svg {
+  fill: var(--color-white);
+  opacity: 0.8;
+  height: 1rem;
+  cursor: pointer;
+  width: 1rem;
+  box-sizing: content-box;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-white);
+}
+.special__icons {
+  text-align: center;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.bubbles img {
+  width: 5rem;
+  animation: bubble 7s linear infinite;
+}
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -7rem;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 2s;
+    width: 2.5rem;
+}
+.bubbles img:nth-child(2) {
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3) {
+    animation-delay: 3s;
+    width: 2.5rem;
+}
+.bubbles img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+
+.bubbles img:nth-child(5) {
+    animation-delay: 3s;
+    width: 2rem;
+}
+.bubbles img:nth-child(6) {
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7) {
+    animation-delay: 7s;
+    width: 3.5rem;
+}
+
