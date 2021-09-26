@@ -19,12 +19,12 @@ This contains advanced CSS concepts. This UI was designed after an inspiration f
   Screenshots
 </h3>
 
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/1.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/3.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/2.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/4.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/5.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/6.png">
-<img src="https://github.com/himakhaitan/UI-UX-Cluster/tree/main/Architecture-Website/resource/7.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/1.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/2.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/2.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/4.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/5.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/6.png">
+<img src="https://github.com/himakhaitan/UI-UX-Cluster/blob/main/Architecture-Website/resource/7.png">
 
 > Happily turning COFFEE into CODE 🌱
