@@ -1,0 +1,50 @@
+@keyframes moveInZoom {
+    0% {
+opacity: 0;
+transform: scale(0.72);
+    }
+
+    80% {
+opacity: 1;
+transform: scale(1.08);
+    }
+
+    100% {
+opacity: 1;
+transform: scale(1);
+    }
+}
+
+@keyframes moveInZoomOut {
+    0% {
+opacity: 0;
+transform: scale(1.2);
+    }
+
+    80% {
+opacity: 1;
+transform: scale(0.91);
+    }
+
+    100% {
+opacity: 1;
+transform: scale(1);
+    }
+}
+
+@keyframes moveInTop {
+    0% {
+opacity: 0;
+transform: translateY(100%);
+    }
+
+    80% {
+opacity: 1;
+transform: translateY(-2rem);
+    }
+
+    100% {
+opacity: 1;
+transform: translateY(0);
+    }
+}

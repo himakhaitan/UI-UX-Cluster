@@ -1,0 +1,35 @@
+{
+  "name": "driftello-auto",
+  "version": "1.0.0",
+  "description": "Automobile manfactures and designers portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass:dev": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass:dev\"",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himakhaitan/Driftello-Auto.git"
+  },
+  "author": "Himanshu Khaitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himakhaitan/Driftello-Auto/issues"
+  },
+  "homepage": "https://github.com/himakhaitan/Driftello-Auto",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.1"
+  }
+}

@@ -1,0 +1,102 @@
+.section-about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60vw 1fr;
+    grid-template-rows: 100vh;
+
+    @media only screen  and  (max-width: 36.25em) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    @media only screen  and  (max-width: 56.25em) {
+        grid-template-rows: auto;
+    }
+
+    @media only screen  and  (max-width: 64em) {
+        grid-template-rows: auto;
+    }
+}
+
+.about {
+    &__img {
+            position: relative;
+            z-index: -2;
+
+            @media only screen  and (max-width: 36.25em){
+                text-align: center;
+                margin-top: 5rem;
+            }
+    }
+
+    &__image {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        @media only screen  and  (max-width: 64em) {
+            position: relative;
+        }
+
+        @media only screen  and  (max-width: 36.25em) {
+                position: relative;
+                width: 80%;
+                clip-path: polygon(0 0, 100% 0 , 100% 89%, 0 100%);
+                border: 2rem solid $color-primary;
+        }
+    }
+
+    &__content {
+        border-right: 5rem solid $color-primary;
+        padding: 6rem;
+        text-align: center  ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-white;
+
+        @media only screen and (max-width: 56.25em) {
+            border-right: 3rem solid $color-primary;
+        }
+
+        @media only screen  and  (max-width: 36.25em) {
+           z-index: -100;
+           padding: 18rem 6rem 10rem 6rem;
+           margin-top: -8rem;
+           border-right: none;
+    }
+    }
+
+    &__button:link,
+    &__button:visited {
+        background-color: $color-secondary;
+        height: 6rem;
+        width: 6rem;
+        text-align: center;
+        transition: all 0.2s;
+        margin: 0 auto;
+        border-radius: 50%;
+        
+        animation: moveInTop 1s ease-out 1s;
+        animation-fill-mode: backwards;
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.25);
+        
+    }
+
+    &__button:hover {
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.35);
+        transform: translateY(-2px);
+    }
+    &__button:active {
+        transform: translateY(0);
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.25);
+    }
+    &__icon {
+        height: 4rem;
+        margin:  1rem auto;
+        width: 4rem;
+        fill: $color-white;  
+    }
+}

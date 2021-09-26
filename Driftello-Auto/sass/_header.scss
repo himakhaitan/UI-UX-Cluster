@@ -1,0 +1,89 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba($color-secondary, 0.8),
+      rgba($color-secondary, 0.8)
+    ),
+    url(../img/11.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    justify-content: center;
+    
+
+    @media only screen  and  (max-width: 64em) {
+        height: auto;
+    }
+
+    @media only screen and (max-width: 36.35em) {
+        height: 100vh;
+    }
+
+    &__box{
+        width: 58vw;
+        background-color: rgba($color: $color-primary, $alpha: 0.8);
+
+        @media only screen and (max-width: 56.25em) {
+            width: 100vw;
+            margin: auto;
+        }
+    }
+
+    &__primary-box {
+        padding: 6vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    &__logo {
+        height: 7rem;
+        
+    }
+
+    &__text {
+        background-color: $color-secondary;
+        color: $color-white;
+        padding: 0.8rem 9rem;
+        // align-self: stretch;
+
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        animation: moveInZoomOut 1s ease-out;
+    }
+
+    &__button:link,
+    &__button:visited {
+        background-color: $color-white;
+        height: 6rem;
+        width: 6rem;
+        text-align: center;
+        transition: all 0.2s;
+        border-radius: 50%;
+        
+        animation: moveInTop 1s ease-out 1s;
+        animation-fill-mode: backwards;
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.25);
+        
+    }
+
+    &__button:hover {
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.35);
+        transform: translateY(-2px);
+    }
+    &__button:active {
+        transform: translateY(0);
+        box-shadow: 0 2rem 6rem rgba($color-black, 0.25);
+    }
+    &__icon {
+        height: 4rem;
+        margin:  1rem auto;
+        width: 4rem;
+        fill: $color-secondary;  
+    }
+}
