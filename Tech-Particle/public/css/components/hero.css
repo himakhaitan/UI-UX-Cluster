@@ -1,0 +1,57 @@
+#hero {
+    height: 130vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../img/keyboard.jpg');
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding: 4rem 7rem;
+    background-position: center;
+}
+.hero__content {
+    display: grid;
+    grid-template-columns:1fr 35%;
+    align-items: center;
+}
+.hero__primary {
+    padding: 0 3rem 0 0;
+}
+.hero__medium {
+    font-size: 9rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-top: 2.5rem;
+}
+.hero__bottom {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 80%;
+    line-height: 1.6;
+}
+.hero__top {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+}
+.hero__btn {
+    padding: 1.5rem 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--color-primary-light);
+    border-radius: 0.5rem;
+    display: inline-block;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.hero__cta {
+    margin-top: 2.5rem;
+}
+.hero__btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+}

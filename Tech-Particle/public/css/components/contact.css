@@ -1,0 +1,81 @@
+#contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../img/home.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 12rem 7rem;
+}
+
+.contact__heading {
+  text-align: center;
+}
+
+.contact__form {
+  display: grid;
+  margin-top: 8rem;
+  justify-items: center;
+  justify-items: center;
+}
+.form {
+  width: 60%;
+}
+.form__group:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: var(--color-white);
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: transparent;
+  border: none;
+  border: 2px solid rgba(256, 256, 256, 0.6);
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid var(--color-green);
+}
+
+.form__input:focus:invalid {
+    border-bottom: 3px solid var(--color-primary-light);
+}
+
+.form__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    color: var(--color-green);
+    transition: all 0.3s;
+}
+
+.form__input:placeholder-shown ~ .form__label{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+}
+
+.btn {
+    outline: none;
+    background-color: var(--color-white);
+    padding: 1rem 3rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2rem 10rem rgba(256, 256, 256, 0.15);
+}

@@ -18,5 +18,6 @@ UI-UX Cluster contains all the small projects and UI I have made during any cour
 - [x] Bubble
 - [x] Trillo
 - [x] Login Template
+- [x] Tech Particle
 
 > Happily Turning Coffee into Code 🌱

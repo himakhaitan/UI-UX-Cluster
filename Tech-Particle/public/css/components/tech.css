@@ -1,0 +1,82 @@
+#tech {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../img/qwer.jpg");
+  padding: 0 3rem;
+  background-size: cover;
+  position: relative;
+
+  background-position: center;
+}
+.tech {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tech__element {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.tech__container {
+    margin-top: 36rem;
+    padding: 3rem 4rem 10rem;
+    transition: all 0.4s;
+}
+.tech__container:hover {
+    background-color: rgba(237, 2, 51, 0.3);
+}
+.number {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+.tech__head {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
+.tech__desc {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.read__more {
+    margin-top: 7rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}       
+
+.read__more > a:active,
+.read__more > a:link,
+.read__more > a:visited {
+    color: var(--color-white);
+}
+
+/* ********************************************************************** */
+
+.tech__heading {
+    position: absolute;
+    top: 17%;
+    text-align: center;
+transform: translateX(-50%);
+    left: 50%;
+}
+
+.heading__main {
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+}
+.heading__sec {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    /* letter-spacing: 0.4rem; */
+    margin-top: 2rem;
+}

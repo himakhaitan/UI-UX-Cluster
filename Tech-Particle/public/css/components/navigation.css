@@ -1,0 +1,73 @@
+#navbar {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(18, 18, 18, 0.7);
+}
+.navbar__logo {
+  color: var(--color-white);
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.logo__entity {
+  color: var(--color-primary-light);
+}
+
+.navbar__links {
+  color: var(--color-white);
+}
+.links {
+  list-style: none;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, max-content);
+  grid-column-gap: 2.8rem;
+}
+.link {
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+  font-size: 1.3rem;
+  letter-spacing: 1.6px;
+}
+.link:hover {
+  color: var(--color-primary-light);
+  outline-offset: 1rem;
+  outline: 2px solid var(--color-primary-light);
+}
+
+.link__btn {
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+  font-size: 1.3rem;
+  letter-spacing: 1.6px;
+  outline-offset: 1rem;
+  outline: 2px solid var(--color-green);
+  padding: 0 0.7rem;
+  margin: 0 0.7rem;
+  border-radius: 2px;
+}
+
+.link__btn > a:visited,
+.link__btn > a:active {
+  color: var(--color-green);
+  transition: all 0.2s;
+}
+
+.link > a:active {
+  color: var(--color-white);
+}
+
+.link__a {
+  color: var(--color-white);
+}
+
+.link:hover > a {
+color: var(--color-primary-light);
+}

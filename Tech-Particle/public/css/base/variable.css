@@ -1,0 +1,11 @@
+:root {
+    /* HELPER COLORS */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-green: #1fab89;
+
+    /* THEME COLORS */
+    --color-primary: #7D172C;
+    --color-primary-light: #ED0233;
+    --color-dark: #121212;
+}
